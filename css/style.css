@@ -1,0 +1,253 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/***************** Default Edits Above *********************/
+
+/***************** Terrance Edits Below *********************/
+section#hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ), url(../img/top-background1.jpg) center no-repeat #000;
+    height: 75vh;
+    margin-top: -20px;
+}
+section#about {
+
+padding: 80px 0;
+background: #fff;
+}
+
+section#objectives {
+background: linear-gradient( rgba(11, 11, 11, 0.15), rgba(39, 39, 39, 0.15) ), url(../img/background3.jpg) -250px 0px;
+padding: 120px 0;
+}
+
+section#history {
+background: linear-gradient( rgba(24, 24, 24, 0.88), rgba(255, 0, 0, 0.15) ), url(../img/background2.jpg) 0 -70px;
+margin-top: -30px;
+padding: 120px 0;
+}
+
+section#line-history {
+    background: #ffffff;
+    color: #370000;
+    
+
+}
+
+section#current-members {
+background: #230000;
+padding: 0px 0;
+}
+
+footer.page-footer {
+
+background-color: #100000;
+}
+
+
+.custom-red-text {
+color: #B62A2A;
+
+}
+
+.custom-red-text-margin {
+color: #B62A2A;
+margin: 0;
+}
+
+custom-history {
+    color: #b30000;
+}
+
+.trans-text {
+   color: #ef9a9a ;
+}
+.collapsible {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.collapsible-body p {
+    margin: 0;
+    padding: .5rem .5rem 0 2rem;
+    color: #000;
+}
+
+.collapsible-body p:nth-child(odd) {
+    background: #EBEBEB;
+
+}
+
+.collapsible-header:hover {
+    background: #EBEBEB;
+}
+
+#contact-row {
+    margin-bottom: 0;
+}
+
+#contact-button {
+    margin-bottom: 0;
+    height: 54px;
+}
+
+#contact-center {   
+        height: 54px;
+
+
+}
+
+section#now-members {
+   
+}
+
+
+section#now-members > collection-item {
+    
+
+}
+
+nav {
+color: #fff;
+background-color: #100000;
+width: 100%;
+
+line-height: 56px;
+}
+
+.hero-custom {
+    
+
+}
+
+
+.navbar-fixed {
+height: 64px;
+opacity: .98;
+}
+
+section#now-members {
+    color: #370000;
+
+}
+
+
+#header-white-text {
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+#heavy-header-white-text {
+    color: #fff;
+    
+
+}
+
+#call-to-action {
+margin-top: 155px;
+}
+
+#custom-row {
+    margin-top: 100px;
+}
+
+#custom-row-2 {
+    margin-bottom: 
+}
+
+p.custom-size {
+    font-size: .9em;
+    line-height: 1.4em;
+}
+
+
+text-hover:hover {
+
+    color: #000;
+
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+    
+    #header-white-text {
+color: #fff;
+font-weight: 700;
+/* height: 250px; */
+
+}
+    
+    ul.side-nav {
+        background-color: #B62A2A;
+    
+    }
+}
+
+@media only screen and (max-width : 599px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+    
+#header-white-text {
+color: #fff;
+font-weight: 700;
+/* height: 250px; */
+margin-top: -150px;
+}
+    
+  ul.side-nav {
+        background-color: #B62A2A;
+    
+    }   
+
+}
